@@ -1,3 +1,5 @@
+
+
 /********** Template CSS **********/
 :root {
     --primary: #F77D0A;
@@ -5,7 +7,20 @@
     --light: #F4F5F8;
     --dark: #1C1E32;
 }
+@font-face {
+    font-family: 'changa';
+    src: url(fonts/Changa-Bold.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
 
+@media only screen and (max-device-width: 736px) {
+    .flex_column.av_one_third.avia-builder-el-4.el_after_av_two_third.el_before_av_two_third {
+    margin-left: -45px !important;
+    }
+    .flex_column.av_one_third.avia-builder-el-14.el_after_av_two_third.el_before_av_section.avia-builder-el-last.column-top-margin {
+    margin-left: -45px !important;
+    }}
 h1,
 h2,
 .font-weight-bold {
